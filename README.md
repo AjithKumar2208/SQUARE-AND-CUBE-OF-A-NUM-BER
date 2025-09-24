@@ -18,7 +18,7 @@ To write and execute an Assembly language program for finding the square of a gi
 ```
 
 ORG 00H
-MOV R0,#50H
+MOV R0,#40H
 MOV A,@R0
 MOV B,A
 MUL AB
@@ -63,7 +63,7 @@ To write and execute an Assembly language program for finding the cube of a give
 
 
 ORG 00H
-MOV R0,#50H
+MOV R0,#40H
 MOV A,@R0
 MOV B,A
 MUL AB
